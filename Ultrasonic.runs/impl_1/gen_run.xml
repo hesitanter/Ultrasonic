@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1482964720">
+  <File Type="PWROPT-DRC" Name="AutoBreakSystem_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="AutoBreakSystem_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="AutoBreakSystem_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="AutoBreakSystem_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="AutoBreakSystem.tcl"/>
+  <File Type="OPT-HWDEF" Name="AutoBreakSystem.hwdef"/>
+  <File Type="RDI-RDI" Name="AutoBreakSystem.vdi"/>
+  <File Type="OPT-DCP" Name="AutoBreakSystem_opt.dcp"/>
+  <File Type="OPT-DRC" Name="AutoBreakSystem_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="AutoBreakSystem_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="AutoBreakSystem_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="AutoBreakSystem_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="AutoBreakSystem_placed.dcp"/>
+  <File Type="PLACE-IO" Name="AutoBreakSystem_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="AutoBreakSystem_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="AutoBreakSystem_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="AutoBreakSystem_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="AutoBreakSystem_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="AutoBreakSystem_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="AutoBreakSystem_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="AutoBreakSystem_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="AutoBreakSystem_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="AutoBreakSystem_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="AutoBreakSystem_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="AutoBreakSystem_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="AutoBreakSystem_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="AutoBreakSystem_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="AutoBreakSystem_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="AutoBreakSystem_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="AutoBreakSystem_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="AutoBreakSystem_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="AutoBreakSystem.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="AutoBreakSystem_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="AutoBreakSystem.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="AutoBreakSystem_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="AutoBreakSystem.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="AutoBreakSystem_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="AutoBreakSystem.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="AutoBreakSystem_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="AutoBreakSystem_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="AutoBreakSystem_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="AutoBreakSystem_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="AutoBreakSystem_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="AutoBreakSystem_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="AutoBreakSystem_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="AutoBreakSystem_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="AutoBreakSystem_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="AutoBreakSystem_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="AutoBreakSystem_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="AutoBreakSystem_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="AutoBreakSystem_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="AutoBreakSystem_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="AutoBreakSystem_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="AutoBreakSystem.bit"/>
+  <File Type="BITSTR-RBT" Name="AutoBreakSystem.rbt"/>
+  <File Type="BITSTR-NKY" Name="AutoBreakSystem.nky"/>
+  <File Type="BITSTR-BMM" Name="AutoBreakSystem_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="AutoBreakSystem.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="AutoBreakSystem.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/SevSeg_4digit.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Motor.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/UltrasonicDriver.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/AutoBreakSystem.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="AutoBreakSystem"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constraint.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/constraint.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
