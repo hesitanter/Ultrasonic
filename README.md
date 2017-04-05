@@ -1,4 +1,6 @@
 # Ultrasonic
+#####Contributions
+* by Shamil Ibrahimov
 ## Description
 This is a Vivado project implemented on SystemVerilog for Basys 3. It measures the distance to the nearest object using a ultrasonic sensor
 and adjusts the speed of the motor depending on that distance. If the distance is large it increases the speed and vice verse.
