@@ -1,5 +1,5 @@
 # Ultrasonic
-#####Contributions
+### Contributions
 * by Shamil Ibrahimov
 ## Description
 This is a Vivado project implemented on SystemVerilog for Basys 3. It measures the distance to the nearest object using a ultrasonic sensor
