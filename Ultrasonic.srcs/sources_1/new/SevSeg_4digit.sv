@@ -33,7 +33,7 @@
 module SevSeg_4digit(
  input clk,
  input [3:0] in0, in1, in2, in3,        // 4 values for 4 digits (decimal value)
- output a, b, c, d, e, f, g, dp, //individual LED output for the 7-segment along with the digital point
+ output a, b, c, d, e, f, g, DP, //individual LED output for the 7-segment along with the digital point
  output [3:0] an   // anode: 4-bit enable signal (active low)
  );
  
@@ -103,7 +103,7 @@ always_comb
  
 assign an = digit_en; 
 assign {g, f, e, d, c, b, a} = sseg_LEDs; 
-assign dp = 1'b1; //turn dp off
+assign DP = 1'b1; //turn DP off
  
  
 endmodule

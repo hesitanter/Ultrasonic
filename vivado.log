@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Tue May 01 00:03:54 2018
+# Process ID: 8732
+# Current directory: C:/Users/Shamil/Desktop/Bilkent/2ci sinif 2.ci part/CS 223 Project/Ultrasonic
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9728 C:\Users\Shamil\Desktop\Bilkent\2ci sinif 2.ci part\CS 223 Project\Ultrasonic\Ultrasonic.xpr
+# Log file: C:/Users/Shamil/Desktop/Bilkent/2ci sinif 2.ci part/CS 223 Project/Ultrasonic/vivado.log
+# Journal file: C:/Users/Shamil/Desktop/Bilkent/2ci sinif 2.ci part/CS 223 Project/Ultrasonic\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Shamil/Desktop/Bilkent/2ci sinif 2.ci part/CS 223 Project/Ultrasonic/Ultrasonic.xpr}
+INFO: [Project 1-313] Project file moved from 'E:/Vivado_Projects/Ultrasonic' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/Shamil/Desktop/Bilkent/2ci sinif 2.ci part/CS 223 Project/Ultrasonic/Ultrasonic.ip_user_files', nor could it be found using path 'E:/Vivado_Projects/Ultrasonic/Ultrasonic.ip_user_files'.
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:basys3:part0:1.1. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 727.371 ; gain = 111.637
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 01 00:07:05 2018...

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Tue May 01 00:03:54 2018
+# Process ID: 8732
+# Current directory: C:/Users/Shamil/Desktop/Bilkent/2ci sinif 2.ci part/CS 223 Project/Ultrasonic
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9728 C:\Users\Shamil\Desktop\Bilkent\2ci sinif 2.ci part\CS 223 Project\Ultrasonic\Ultrasonic.xpr
+# Log file: C:/Users/Shamil/Desktop/Bilkent/2ci sinif 2.ci part/CS 223 Project/Ultrasonic/vivado.log
+# Journal file: C:/Users/Shamil/Desktop/Bilkent/2ci sinif 2.ci part/CS 223 Project/Ultrasonic\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Shamil/Desktop/Bilkent/2ci sinif 2.ci part/CS 223 Project/Ultrasonic/Ultrasonic.xpr}

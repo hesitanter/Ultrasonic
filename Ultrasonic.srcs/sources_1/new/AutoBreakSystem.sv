@@ -24,7 +24,7 @@ module AutoBreakSystem(
     input logic clk, reset,
     inout logic sig,
     output logic A, B, Ab, Bb,
-    output logic a, b, c, d, e, f, g, dp,
+    output logic a, b, c, d, e, f, g, DP,
     output [3:0] an
     );
 
@@ -50,7 +50,7 @@ module AutoBreakSystem(
     Motor mt(clk, reset, speed, A, B, Ab, Bb);
     
     logic [3:0] in0, in1, in2, in3;
-    SevSeg_4digit svg(clk, in0, in1, in2, in3, a, b, c, d, e, f, g, dp, an);
+    SevSeg_4digit svg(clk, in0, in1, in2, in3, a, b, c, d, e, f, g, DP, an);
 
     logic [2:0] state, nextState;
 
